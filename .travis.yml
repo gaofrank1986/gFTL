@@ -2,7 +2,7 @@ sudo: false
 dist: trusty
 language: c
 
-if: branch = develop
+if: (branch IN (master, develop))
 
 matrix:
    include:
