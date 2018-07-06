@@ -2,6 +2,8 @@ sudo: false
 dist: trusty
 language: c
 
+if: (branch IN (master, develop)) OR (branch =~ /^test\/*$/)
+
 matrix:
    include:
       - os: linux
