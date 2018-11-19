@@ -11,7 +11,7 @@ matrix:
                  - ubuntu-toolchain-r-test
               packages:
                  - gfortran-7
-                 - cmake3
+                 - cmake
         env:
            - FC='gfortran-7'
       - os: linux
@@ -21,7 +21,7 @@ matrix:
                  - ubuntu-toolchain-r-test
               packages:
                  - gfortran-8
-                 - cmake3
+                 - cmake
         env:
            - FC='gfortran-8'
       - os: osx
